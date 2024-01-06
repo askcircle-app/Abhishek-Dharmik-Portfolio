@@ -449,6 +449,13 @@ main {
   z-index: 1;
 }
 
+.social-button img {
+  filter: brightness(70%) grayscale(70%) invert(70%);
+  width: 20px;
+  height: 20px;
+}
+
+
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
